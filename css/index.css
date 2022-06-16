@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    Font-size: 15px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+
+}
+main, .btn{
+    background-color: hsl(0, 0%, 95%);
+}
+
+main .wrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+
+main .wrapper .col{
+    flex: 1;
+    padding: 30px 15px;
+    background-color: aqua;
+}
+main .wrapper .col-1{
+    background-color: hsl(31, 77%, 52%);
+}
+main .wrapper .col-2{
+    background-color: hsl(184, 100%, 22%);
+}
+main .wrapper .col-3{
+    background-color: hsl(179, 100%, 13%);
+}
+.col h2{
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+}
+.col h2, .col .write-up {
+    margin: 5px 0;
+    padding: 15px 0;
+    color: hsl(0, 0%, 95%);
+}
+
+.col .write-up .btn{
+    width: 120px;
+    margin: 40px 0;
+    padding: 15px;
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.col .write-up .btn:hover{
+    background-color: inherit;
+}
